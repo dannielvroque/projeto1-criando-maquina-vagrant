@@ -11,7 +11,6 @@ Este projeto configura uma máquina virtual utilizando o Vagrant e o VirtualBox,
 
    ```bash
    git clone https://github.com/dannielvroque/projeto1-criando-maquina-vagrant
-   ```markdown
 
 2. Construindo a VM
 
@@ -40,14 +39,12 @@ Este projeto configura uma máquina virtual utilizando o Vagrant e o VirtualBox,
 
    Dentro do diretorio local onde o projeto foi baixado, foi criada a pasta shared_folder_local, dentro dela, pode-se criar algum arquivo de teste, como por exemplo "teste.txt"
    
-   ![alt text](image-1.png)
+   ![alt text](ls-host.png)
 
    Depois de criado este arquivo, podemos verificar dentro da VM(conforme passo 4 para testes e conexao) que o arquivo esta compartilhando dentro da pasta "shared_folder_remote"
 
    ```bash
-
-   ls -ltr /home/vagrant/shared_folder_remote
-   
+   ls -ltr /home/vagrant/shared_folder_remote   
    ```
   
-   ![alt text](image.png)
+   ![alt text](ls-vm.png)
