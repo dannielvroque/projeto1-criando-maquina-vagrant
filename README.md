@@ -8,8 +8,10 @@ Este projeto configura uma máquina virtual utilizando o Vagrant e o VirtualBox,
 
 ## Como Usar
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/dannielvroque/projeto1-criando-maquina-vagrant
+   ```markdown
 
 2. Construindo a VM
 
@@ -45,7 +47,7 @@ Este projeto configura uma máquina virtual utilizando o Vagrant e o VirtualBox,
    ```bash
 
    ls -ltr /home/vagrant/shared_folder_remote
+   
+   ```
   
    ![alt text](image.png)
-
-   
