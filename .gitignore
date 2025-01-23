@@ -2,7 +2,7 @@
 .vagrant/
 
 # Ignorar o diretório de compartilhamento local
-/shared_folder_local/
+./shared_folder_local/
 
 # Ignorar arquivos temporários
 *.log
